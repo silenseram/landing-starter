@@ -1,0 +1,21 @@
+{
+  "name": "pfrt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parcel": "parcel src/html/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2",
+    "posthtml-expressions": "^1.9.0"
+  },
+  "dependencies": {
+    "posthtml-doctype": "^1.1.1",
+    "posthtml-include": "^1.7.4"
+  }
+}

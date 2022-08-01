@@ -1,0 +1,10 @@
+{
+  "plugins": {
+    "posthtml-include": {
+     "root": "src/html"
+    },
+    "posthtml-expressions": {
+      "removeScriptLocals": true
+    }
+  }
+}
